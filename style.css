@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('VCR_OSD_MONO_1.001.ttf');
+}
+
 body {
     padding-top: 1%;
     background-color: black;
-    font-family: "Courier New";
+    font-family: "VCR OSD Mono", monospace;
     text-align: center;
     color: white;
 
