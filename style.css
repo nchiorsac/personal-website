@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
 @font-face {
     font-family: 'VCR OSD Mono';
     src: url('VCR_OSD_MONO_1.001.ttf');
@@ -32,13 +29,17 @@ body {
 
 .ascii-art{
     white-space: pre;
-    font-size: 8.5px;
+    font-size: 9px;
     text-align: justify;
     margin: auto;
-
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+pre {
+    font-family: "VCR OSD Mono", monospace;
+    line-height: 10px;
 }
 
 @keyframes fadeInAnimation {
@@ -80,9 +81,11 @@ a:hover {
 a:active { text-decoration: none; }
 
 #back {
+    font-size: 25px;
     position: fixed;
     bottom: 40px;
     width: 100%;
     height: 60px;
     margin-left: -10px;
 }
+
